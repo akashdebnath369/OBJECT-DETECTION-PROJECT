@@ -1,5 +1,4 @@
 import cv2
-
 import time
 from gpiozero import AngularServo
 servo =AngularServo(18, initial_angle=0, min_pulse_width=0.0006, max_pulse_width=0.0023)
